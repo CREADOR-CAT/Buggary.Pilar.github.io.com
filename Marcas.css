@@ -1,0 +1,504 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 100px;
+    background: rgba(255, 255, 255, 0.196);
+    background: linear-gradient(90deg, rgb(255, 255, 255) 39%, rgb(0, 0, 0) 100%);
+}
+/*cabecera*/
+header{
+    min-width: 1000px;
+    min-height: 130px;
+    margin: 0 auto;
+    border-radius: 20px 20px 0 0;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 39%, rgba(203,202,202,1) 100%);
+}
+
+#logo img{
+    height: 120px;
+    float: left;
+    margin-top: 1px;
+    animation: 1s entradalogo 1;
+}
+
+#logo{
+    display: flex;
+}
+
+#tittle-1 {
+    position: relative;
+    left: 100px;
+    top: 35px;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: 2s entradalogo 1;
+
+}
+#tittle-2 {
+    position: relative;
+    left: -35px;
+    top: 35px;
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: 3s letra-2 1;
+
+}
+
+#tittle-3 {
+    position: relative;
+    left: -40px;
+    top: 35px;
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: 4s letra-3 1;
+
+}
+
+#tittle-4 {
+    position: relative;
+    left: -40px;
+    top: 35px;
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: 5s letra-4 1;
+
+}
+
+#tittle-5 {
+    position: relative;
+    left: -50px;
+    top: 35px;
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: 6s letra-4 1;
+
+}
+#tittle-6 {
+    position: relative;
+    left: -50px;
+    top: 35px;
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: 7s letra-4 1;
+
+}
+#tittle-7 {
+    position: relative;
+    left: -50px;
+    top: 35px;
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: 7s letra-4 1;
+
+}
+
+.ttt{
+    cursor: default;
+}
+
+/*cabecera*/
+
+
+
+
+/*Menu-Horizontal*/
+#horizontal {
+    max-width: 1000;
+    min-height: 50px;
+    background-color: #000;
+}
+
+#horizontal ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+#horizontal a{
+color: white;
+display: block;
+padding: 10px;
+text-decoration: none;
+background-color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 23px;
+position: relative;
+left: -300px;   
+}
+
+#horizontal li p {
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: -300px;
+    top: 15px;
+    cursor: default;
+    animation: 3s lema 1;
+}
+
+#horizontal a:hover{
+    color: #6275df;
+    transition: 1s;
+}
+
+#horizontal ul ul{
+    display: none;
+    position: absolute;
+}
+
+#horizontal ul li:hover ul{
+    display: block;
+}
+
+
+
+
+/*Menu-Horizontal*/
+
+
+    #banner img {
+    margin-top: 1px;
+    margin-left: -0.5px;
+    width: 1065px;
+    height: 310px;
+    }
+
+
+    #banner {
+        min-width: 1000px;
+        min-height: 250px;
+        background-color: #ffffff;
+        margin: 0 auto;
+        height: 310px;
+    }
+
+#contenedor{
+    max-width: 1000;
+    min-height: 700px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+
+
+/**menu-vertical**/
+#menu-v{
+    width: 300px;
+    min-height: 700px;
+    background-color: #ccc;
+    float: left;
+}
+
+#menu-v ul{
+list-style: none;
+padding: 10px;
+}
+
+#menu-v a{
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 9px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background: rgb(2, 0, 138);
+    background: linear-gradient(0deg, rgb(31, 24, 126) 28%, rgb(18, 57, 200) 45%);
+}
+
+#menu-v a:hover{
+    color: #131b47;
+    transition: all 420ms;
+}
+
+#menu-v a:hover img{
+    animation: 1s rotacion 1;
+}
+
+/**menu-vertical**/
+
+
+
+
+/**Contenido**/
+#contenido{
+    width: 1063.5px;
+    min-height: 700px;
+    background-color: #030303;
+    float: right;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#contenido h2{
+    position: relative;
+    left: 290px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: x-large;
+}
+
+#contenido img {
+    position: relative;
+    left: -20px;
+    float: left;
+    width: 150px;
+    margin: 20px;
+}
+
+#contenido p {
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    position: relative;
+    left: -10px;
+    top: 20px;
+    margin: 20px;
+}
+
+.body-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.card {
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    background: var(--i);
+    background-size: cover;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
+    overflow: hidden;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, .4);
+    opacity: 0;
+    transition: .5s;
+}
+
+.content h3, a, p {
+    color: rgba(255, 255, 255, .8);
+    margin: 5px 0;
+}
+
+.card:hover .content {
+    opacity: 1;
+}
+
+#Frase {
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+/**Contenido**/
+
+
+
+footer{
+    max-width: 1000;
+    padding-bottom: 300px;
+    background-color: #000;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+}
+
+footer p {
+    color: white;
+    padding: 8px;
+    font-family: cursive;
+    font-size: 18px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+
+/*slider*/
+
+
+#banner{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+#banner ul{
+    display: flex;
+    animation: Elpepe 30s infinite;
+    width: 400%;
+}
+
+#banner li {
+    width: 100%;
+    list-style: none;
+}
+
+
+#banner img{
+    width: 100%;
+    height: 500px;
+}
+
+/*slider*/
+
+.padre-pie{
+    display: block;
+    text-align: right;
+    position: relative;
+    left: 600px;
+    top: 80px;
+}
+
+.padre-pie .padre-hijos{
+    margin: 40px;
+}
+
+.padre-pie .padre-hijos input{
+    padding: 10px;
+    border-radius: 20px;
+    padding-right: 80px;
+    transition: 1s;
+}
+
+.padre-pie input:hover {
+    font-size: 16px;
+    transition: 2s;
+    border: black solid;
+}
+
+.padre-pie h2{
+    color: #000000;
+    position: relative;
+    top: 40px;
+    left: -140px;
+}
+
+.padre-pie{
+    background: rgb(10, 20, 116);
+    background: linear-gradient(0deg, rgb(4, 7, 78) 28%, rgb(18, 64, 201) 45%);
+    width: 350px;
+    height: 350px;
+    border-radius: 40px;
+}
+
+.btn-enviar button{
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    top: -30px;
+    left: -25px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.padre-pie label{
+    color: #000000;
+    font-size: 23px;
+    font-weight: bold;
+    position: relative;
+    left: -100px;
+    top: 20px;
+}
+
+.footer-img {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    left: -540px;
+    top: 20px;
+}
+
+.pie-1  {
+    position: relative;
+    left: 450px;
+    top: -130px;
+}
+
+
+/*keyframe*/
+
+@keyframes entradalogo {
+    0%{
+        transform: translateX(-400px);
+    }
+}
+
+@keyframes letra-2 {
+    0%{
+        transform: translateX(-500px);
+    }
+}
+
+@keyframes letra-3 {
+    0%{
+        transform: translateX(-600px);
+    }
+}
+
+@keyframes letra-4 {
+    0%{
+        transform: translateX(-600px);
+    }
+}
+
+@keyframes letra-5 {
+    0%{
+        transform: translateX(-600px);
+    }
+}
+
+@keyframes letra-6 {
+    0%{
+        transform: translateX(-600px);
+    }
+}
+
+@keyframes letra-7 {
+    0%{
+        transform: translateX(-600px);
+    }
+}
+
+
+@keyframes rotacion{
+    0%{
+        transform: rotate(270deg);
+    }
+}
+
+@keyframes lema {
+    0%{
+        transform: translateX(600px);
+    }
+}
+
+@keyframes Elpepe{
+    0%{margin-left:  0%;}
+    20%{margin-left:  0%;}
+
+    25%{margin-left:  -100%;}
+    45%{margin-left:  -100%;}
+
+    50%{margin-left:  -200%;}
+    70%{margin-left:  -200%;}
+
+    75%{margin-left:  -300%;}
+    100%{margin-left:  -300%;}
+}
